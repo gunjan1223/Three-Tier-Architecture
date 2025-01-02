@@ -72,3 +72,10 @@ In this architecture, we have three main layers:
 - **Implementation**:
   - **Web Tier**: Auto-scaling based on metrics like CPU usage or request count to add or remove web server instances.
   - **Application Tier**: Auto-scaling based on similar metrics to adjust the number of application server instances.
+ 
+### Architecture: 
+
+![Screenshot (131)](https://github.com/user-attachments/assets/4f986180-285e-4321-a1ac-591098ae41c1)
+
+
+
