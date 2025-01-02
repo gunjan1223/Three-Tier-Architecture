@@ -1,5 +1,7 @@
 # Three-Tier-Architecture
 
+Deployed an simple react-app 
+
 ## Three Tier Architecture Overview: 
 Web Server: This is the front part of a web application that displays the website to users. It handles how the site looks and interacts with users, like showing product pages or allowing people to sign up.
 
