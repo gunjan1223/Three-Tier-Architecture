@@ -74,6 +74,16 @@ In this architecture, we have three main layers:
 - **Implementation**:
   - **Web Tier**: Auto-scaling based on metrics like CPU usage or request count to add or remove web server instances.
   - **Application Tier**: Auto-scaling based on similar metrics to adjust the number of application server instances.
+
+ ### Stages For Creating Resources
+1. Create a vpc for project
+2. create s3 bucket and upload code, creae IAM role to attach to ec2 instance
+   
+Note: Create Security Groups for resources (1 webserver, 1 web internet facing ALB, 1 Appserver, 1 app internal, 1DB)
+
+4. create DB subnet groups and create rds Database. (mysql db) , optinally we can enable multiAZ's 
+5. create application tier resources including internal load balancer
+6. create web tier resources including external load balancer 
  
 ### Architecture: 
 
